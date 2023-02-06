@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+    
+}
+
+button#hamburger-menu-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  #hamburger-menu-button span {
+    display:flex;
+    height: 2px;
+    width: 24px;
+    background-color: #000;
+    margin: 4px 0;
+  }
+  
+  #navigation a {
+    text-decoration: none;
+  }
+  
+  #navigation {
+    display: none;
+  }
+
+#hamburger-menu-button:hover span{
+    background-color: blue;
+  }
+  #navigation.show {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 16px;
+    background-color: rgba(205, 193, 193, 0.499);
+    list-style: none;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #navigation li{
+  margin: 8px 0px;
+  
+}
