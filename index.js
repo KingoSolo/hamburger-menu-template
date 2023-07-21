@@ -10,5 +10,4 @@ document.addEventListener("click", function(event){
     if(!event.target.closest("#hamburger-menu-button, #navigation")){
         navigation.classList.remove("show")
     }
-
 });
